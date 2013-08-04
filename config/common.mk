@@ -22,6 +22,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.disable_rescue=true \
     ro.setupwizard.rotation_locked=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.notification_sound=Popcorn.ogg \
