@@ -47,6 +47,10 @@ endif
 PRODUCT_PACKAGES += \
     AmbientPlayHistoryProvider
 
+# Long screenshot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
