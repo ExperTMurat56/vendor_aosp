@@ -43,13 +43,17 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
-# Ambient Play
-PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
-
 # Long screenshot
 PRODUCT_PACKAGES += \
     Longshot
+
+# Recorder app
+PRODUCT_PACKAGES += \
+    Recorder
+
+# Some permissions
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/permissions/privapp-permissions-recorder.xml:system/etc/permissions/privapp-permissions-recorder.xml
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
