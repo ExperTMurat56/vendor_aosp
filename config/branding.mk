@@ -1,6 +1,6 @@
 # Versioning System
-EVO_BASE_VERSION = 2.0
-EVO_CODENAME := Cobra
+EVO_BASE_VERSION = 2.1
+EVO_CODENAME := Anaconda
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
