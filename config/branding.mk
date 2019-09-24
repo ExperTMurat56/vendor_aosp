@@ -1,6 +1,6 @@
 # Versioning System
-EVO_BASE_VERSION = 2.1
-EVO_CODENAME := Anaconda
+EVO_BASE_VERSION = 2.2
+EVO_CODENAME := BeforeTen
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
