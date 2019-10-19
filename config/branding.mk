@@ -1,6 +1,6 @@
 # Versioning System
-EVO_BASE_VERSION = 2.2
-EVO_CODENAME := BeforeTen
+EVO_BASE_VERSION = 2.3
+EVO_CODENAME := ByebyeMrAndroidPie
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
