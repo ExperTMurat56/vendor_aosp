@@ -1,6 +1,6 @@
 # Versioning System
-EVO_BASE_VERSION = 2.3
-EVO_CODENAME := ByebyeMrAndroidPie
+EVO_BASE_VERSION = 2.13
+EVO_CODENAME := EvolutionX-Xcalibur
 
 # Set all versions
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
